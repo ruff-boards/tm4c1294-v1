@@ -3,7 +3,8 @@
     "id": "tm4c1294-v1",
     "model": "tm4c1294-v1",
     "preloads": {
-        "uart3": "uart-3/uart"
+        "uart-6": "uart-6/uart",
+        "uart-7": "uart-7/uart"
     },
     "outputs": {
         "gnd-0": "ground/gnd-0",

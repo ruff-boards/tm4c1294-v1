@@ -1,0 +1,12 @@
+{
+	"name": "tm4c1294-v1",
+	"version": "0.2.5",
+	"description": "Ruff TM4C1294 V1 Metadata",
+	"author": "Nanchao Inc.",
+	"ruff": {
+		"dependencies": {
+			"button-gpio": "^2.0.0",
+			"led-gpio": "^2.0.0"
+		}
+	}
+}

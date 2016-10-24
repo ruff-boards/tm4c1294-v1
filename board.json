@@ -659,7 +659,7 @@
                     }
                 }
             },
-            "outpus": {
+            "outputs": {
                 "uart": {
                     "type": "uart"
                 }
@@ -677,7 +677,7 @@
                     }
                 }
             },
-            "outpus": {
+            "outputs": {
                 "uart": {
                     "type": "uart"
                 }

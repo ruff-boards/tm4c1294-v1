@@ -4,16 +4,15 @@ $.ready(function(error) {
         return;
     }
 
-    var led = $('#led-1');
-    var methods = ['turnOn', 'turnOff'];
-    var ticks = 10;
+    console.log('hello world');
 
-    var interval = setInterval(function () {
-        console.log('#', ticks);
-        led[methods[ticks % 2]]();
-        if (--ticks <= 0) {
-            console.log('hello world');
-            clearInterval(interval);
-        }
-    }, 500);
+    $('#led-1').turnOn();
+
+    $('#button-1').on('push', function () {
+        console.log('push');
+    });
+
+    $('#button-1').on('release', function () {
+        console.log('release');
+    });
 });

@@ -1,0 +1,9 @@
+# See https://github.com/isaacs/node-glob
+
+test/**
+
+*.tar
+*.zip
+*.bin
+
+.*

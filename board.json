@@ -23,6 +23,8 @@
         "pwm-2": "pwm-2/pwm",
         "pwm-3": "pwm-3/pwm",
         "pwm-4": "pwm-4/pwm",
+        "uart-6": "uart-6/uart",
+        "uart-7": "uart-7/uart",
         "i2c-0": "i2c-0/i2c",
         "qei-0": "qei-0/qei",
         "gpio-C6": "gpio-C6/gpio",
@@ -45,8 +47,6 @@
         "gpio-M7": "gpio-M7/gpio",
         "gpio-N2": "gpio-N2/gpio",
         "gpio-N3": "gpio-N3/gpio",
-        "gpio-P0": "gpio-P0/gpio",
-        "gpio-P1": "gpio-P1/gpio",
         "gpio-P2": "gpio-P2/gpio",
         "gpio-P3": "gpio-P3/gpio",
         "gpio-P4": "gpio-P4/gpio",
@@ -461,42 +461,6 @@
             }
         },
         {
-            "id": "gpio-P0",
-            "model": "ruff-gpio",
-            "driver": "mcu-gpio",
-            "inputs": {
-                "pin": {
-                    "type": "number",
-                    "args": {
-                        "pin": "P0"
-                    }
-                }
-            },
-            "outputs": {
-                "gpio": {
-                    "type": "gpio"
-                }
-            }
-        },
-        {
-            "id": "gpio-P1",
-            "model": "ruff-gpio",
-            "driver": "mcu-gpio",
-            "inputs": {
-                "pin": {
-                    "type": "number",
-                    "args": {
-                        "pin": "P1"
-                    }
-                }
-            },
-            "outputs": {
-                "gpio": {
-                    "type": "gpio"
-                }
-            }
-        },
-        {
             "id": "gpio-P2",
             "model": "ruff-gpio",
             "driver": "mcu-gpio",
@@ -683,7 +647,25 @@
             }
         },
         {
-            "id": "uart-3",
+            "id": "uart-6",
+            "model": "ruff-uart",
+            "driver": "mcu-uart",
+            "inputs": {
+                "device": {
+                    "type": "string",
+                    "args": {
+                        "path": "/dev/ttyS1"
+                    }
+                }
+            },
+            "outpus": {
+                "uart": {
+                    "type": "uart"
+                }
+            }
+        },
+        {
+            "id": "uart-7",
             "model": "ruff-uart",
             "driver": "mcu-uart",
             "inputs": {

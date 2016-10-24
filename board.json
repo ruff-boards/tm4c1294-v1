@@ -19,9 +19,6 @@
         "an-2": "adc/an-2",
         "an-3": "adc/an-3",
         "an-4": "adc/an-4",
-        "an-5": "adc/an-5",
-        "an-6": "adc/an-6",
-        "an-7": "adc/an-7",
         "pwm-1": "pwm-1/pwm",
         "pwm-2": "pwm-2/pwm",
         "pwm-3": "pwm-3/pwm",
@@ -732,10 +729,7 @@
                     "an-1" : 1,
                     "an-2" : 2,
                     "an-3" : 3,
-                    "an-4" : 4,
-                    "an-5" : 5,
-                    "an-6" : 6,
-                    "an-7" : 7
+                    "an-4" : 4
                 }
             },
             "inputs": {
@@ -760,15 +754,6 @@
                     "type": "adc"
                 },
                 "an-4": {
-                    "type": "adc"
-                },
-                "an-5": {
-                    "type": "adc"
-                },
-                "an-6": {
-                    "type": "adc"
-                },
-                "an-7": {
                     "type": "adc"
                 }
             }

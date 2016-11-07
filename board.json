@@ -107,7 +107,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "C6"
                     }
@@ -125,7 +125,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "C7"
                     }
@@ -143,7 +143,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "H0"
                     }
@@ -161,7 +161,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "H1"
                     }
@@ -179,7 +179,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "H2"
                     }
@@ -197,7 +197,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "H3"
                     }
@@ -215,7 +215,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "J0"
                     }
@@ -233,7 +233,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "J1"
                     }
@@ -251,7 +251,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "K6"
                     }
@@ -269,7 +269,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "K7"
                     }
@@ -287,7 +287,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "L0"
                     }
@@ -305,7 +305,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "L4"
                     }
@@ -323,7 +323,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "L5"
                     }
@@ -341,7 +341,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "M1"
                     }
@@ -359,7 +359,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "M2"
                     }
@@ -377,7 +377,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "sting",
                     "args": {
                         "pin": "M3"
                     }
@@ -395,7 +395,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "M6"
                     }
@@ -413,7 +413,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "M7"
                     }
@@ -431,7 +431,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "N2"
                     }
@@ -449,7 +449,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "N3"
                     }
@@ -467,7 +467,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "P2"
                     }
@@ -485,7 +485,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "P3"
                     }
@@ -503,7 +503,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "P4"
                     }
@@ -521,7 +521,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "P5"
                     }
@@ -539,7 +539,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "Q1"
                     }
@@ -557,7 +557,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "N0"
                     }
@@ -575,7 +575,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "number",
+                    "type": "string",
                     "args": {
                         "pin": "N1"
                     }

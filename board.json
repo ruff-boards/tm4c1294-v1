@@ -377,7 +377,7 @@
             "driver": "mcu-gpio",
             "inputs": {
                 "pin": {
-                    "type": "sting",
+                    "type": "string",
                     "args": {
                         "pin": "M3"
                     }

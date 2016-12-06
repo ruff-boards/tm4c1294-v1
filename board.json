@@ -1,5 +1,4 @@
-{
-    "version": "2.0",
+{ "version": "2.0",
     "id": "tm4c1294-v1",
     "model": "tm4c1294-v1",
     "preloads": {
@@ -213,6 +212,9 @@
             "id": "gpio-J0",
             "model": "ruff-gpio",
             "driver": "mcu-gpio",
+            "args": {
+                "features": ["pullAble"]
+            },
             "inputs": {
                 "pin": {
                     "type": "string",
@@ -231,6 +233,9 @@
             "id": "gpio-J1",
             "model": "ruff-gpio",
             "driver": "mcu-gpio",
+            "args": {
+                "features": ["pullAble"]
+            },
             "inputs": {
                 "pin": {
                     "type": "string",

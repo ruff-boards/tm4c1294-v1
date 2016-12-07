@@ -1,1 +1,12 @@
+# See https://github.com/isaacs/node-glob
+
 !template/.rapignore
+
+test/**
+
+*.md
+*.tar
+*.zip
+*.bin
+
+.*

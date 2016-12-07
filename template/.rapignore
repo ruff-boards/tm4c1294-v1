@@ -4,6 +4,7 @@ node_modules/**
 
 test/**
 
+*.md
 *.tar
 *.zip
 *.bin

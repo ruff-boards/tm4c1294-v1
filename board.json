@@ -2,6 +2,9 @@
     "id": "tm4c1294-v1",
     "model": "tm4c1294-v1",
     "preloads": {
+        "pwm-0": "pwm-0/pwm",
+        "pwm-1": "pwm-1/pwm",
+        "pwm-2": "pwm-2/pwm",
         "uart-6": "uart-6/uart",
         "uart-7": "uart-7/uart"
     },
@@ -781,7 +784,7 @@
                 }
             }
         },
-		{
+        {
             "id": "pwm-2",
             "model": "ruff-pwm",
             "driver": "mcu-pwm",

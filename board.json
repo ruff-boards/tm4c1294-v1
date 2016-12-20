@@ -19,10 +19,9 @@
         "an-2": "adc/an-2",
         "an-3": "adc/an-3",
         "an-4": "adc/an-4",
+        "pwm-0": "pwm-0/pwm",
         "pwm-1": "pwm-1/pwm",
         "pwm-2": "pwm-2/pwm",
-        "pwm-3": "pwm-3/pwm",
-        "pwm-4": "pwm-4/pwm",
         "uart-6": "uart-6/uart",
         "uart-7": "uart-7/uart",
         "i2c-0": "i2c-0/i2c",
@@ -747,25 +746,7 @@
             }
         },
         {
-            "id": "pwm-1",
-            "model": "ruff-pwm",
-            "driver": "mcu-pwm",
-            "inputs": {
-                "device": {
-                    "type": "number",
-                    "args": {
-                        "channel": 1
-                    }
-                }
-            },
-            "outputs": {
-                "pwm": {
-                    "type": "pwm"
-                }
-            }
-        },
-        {
-            "id": "pwm-2",
+            "id": "pwm-0",
             "model": "ruff-pwm",
             "driver": "mcu-pwm",
             "inputs": {
@@ -782,15 +763,15 @@
                 }
             }
         },
-		{
-            "id": "pwm-3",
+        {
+            "id": "pwm-1",
             "model": "ruff-pwm",
             "driver": "mcu-pwm",
             "inputs": {
                 "device": {
                     "type": "number",
                     "args": {
-                        "channel": 3
+                        "channel": 4
                     }
                 }
             },
@@ -800,15 +781,15 @@
                 }
             }
         },
-        {
-            "id": "pwm-4",
+		{
+            "id": "pwm-2",
             "model": "ruff-pwm",
             "driver": "mcu-pwm",
             "inputs": {
                 "device": {
                     "type": "number",
                     "args": {
-                        "channel": 4
+                        "channel": 6
                     }
                 }
             },

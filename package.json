@@ -1,6 +1,6 @@
 {
     "name": "tm4c1294-v1",
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Ruff TM4C1294 V1 Metadata",
     "author": "Nanchao Inc.",
     "dependencies": {
@@ -10,7 +10,8 @@
         "session-format": {
             "port": {
                 "type": "string",
-                "description": "designate UART port"
+                "description": "designate UART port",
+                "required": true
             }
         },
         "dependencies": {

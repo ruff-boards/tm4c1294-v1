@@ -1,4 +1,5 @@
-{ "version": "2.0",
+{
+    "version": "2.0",
     "id": "tm4c1294-v1",
     "model": "tm4c1294-v1",
     "preloads": {
@@ -32,8 +33,6 @@
         "gpio-H1": "gpio-H1/gpio",
         "gpio-H2": "gpio-H2/gpio",
         "gpio-H3": "gpio-H3/gpio",
-        "gpio-J0": "gpio-J0/gpio",
-        "gpio-J1": "gpio-J1/gpio",
         "gpio-K6": "gpio-K6/gpio",
         "gpio-K7": "gpio-K7/gpio",
         "gpio-L0": "gpio-L0/gpio",

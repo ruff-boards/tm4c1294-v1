@@ -1,6 +1,6 @@
 {
     "name": "tm4c1294-v1",
-    "version": "0.5.1",
+    "version": "0.5.2",
     "description": "Ruff TM4C1294 V1 Metadata",
     "author": "Nanchao Inc.",
     "dependencies": {

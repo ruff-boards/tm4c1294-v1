@@ -290,9 +290,6 @@
                             "read",
                             "interrupt",
                             "pull"
-                        ],
-                        "output": [
-                            "write"
                         ]
                     }
                 }
@@ -321,9 +318,6 @@
                             "read",
                             "interrupt",
                             "pull"
-                        ],
-                        "output": [
-                            "write"
                         ]
                     }
                 }

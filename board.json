@@ -821,11 +821,6 @@
                 "gpio": {
                     "type": "gpio",
                     "features": {
-                        "input": [
-                            "read",
-                            "interrupt",
-                            "pull"
-                        ],
                         "output": [
                             "write"
                         ]
@@ -849,11 +844,6 @@
                 "gpio": {
                     "type": "gpio",
                     "features": {
-                        "input": [
-                            "read",
-                            "interrupt",
-                            "pull"
-                        ],
                         "output": [
                             "write"
                         ]
@@ -901,7 +891,8 @@
                     "bind": "gpio-N1/gpio",
                     "args": {
                         "direction": "out",
-                        "level": "low"
+                        "level": "low",
+                        "activeLow": false
                     }
                 }
             }
@@ -916,7 +907,8 @@
                     "bind": "gpio-N0/gpio",
                     "args": {
                         "direction": "out",
-                        "level": "low"
+                        "level": "low",
+                        "activeLow": false
                     }
                 }
             }

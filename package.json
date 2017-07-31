@@ -1,6 +1,6 @@
 {
     "name": "tm4c1294-v1",
-    "version": "0.5.5",
+    "version": "0.5.6",
     "description": "Ruff TM4C1294 V1 Metadata",
     "author": "Nanchao Inc.",
     "dependencies": {
@@ -11,7 +11,8 @@
             "serial": {
                 "type": "string",
                 "description": "designate device serial",
-                "required": true
+                "required": true,
+                "visible": true
             }
         },
         "dependencies": {
